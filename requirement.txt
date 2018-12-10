@@ -1,0 +1,14 @@
+keras
+Flask
+numpy
+scipy
+pillow
+h5py
+tensorflow
+werkzeug
+virtualenv
+tqdm
+opencv-python
+Theano
+sklearn
+warnings
