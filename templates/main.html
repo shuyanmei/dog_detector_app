@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title>Dog Breed Detector</title>
+
+<div class="row" >
+    <h1 class="display-4" style="text-align:center;border:1px solid grey; margin: 70px; background-color: honeydew  "> Dog Breed Detector</h1>
+</div>
+<div class="mt-2 row" style="text-align:center;border:1px solid grey; margin: 70px; background-color: papayawhip">
+    <ul>
+        <li>This application uses convolutional neural network to detect dog breed.</li>
+        <li>If a dog is detected, it will show the breed it most likely is.</li>
+        <li>If a human face is detected, it will show the most similar dog breed.</li>
+        <li>It supports input in png, jpg and jpeg format and it takes a while to run the algorithm after uploading the picture.</li>
+    </ul>
+</div>
+
+<div class="mt-2 d-flex justify-content-center" style="text-align:center;border:1px solid grey; margin: 70px; padding: 30px; background-color: mistyrose">
+<form method=post enctype=multipart/form-data>
+     <input type=file name=file  >
+     <input type=submit value=upload  >
+</form>
+</div>
+
+
+<div style="text-align: center;border:1px solid grey; margin: 70px; padding: 30px; background-color: mistyrose">
+<p> {{ breed }} </p><br>
+<img src= {{ fileurl }} height= 224 width=224  class="center" >
+</div>
+
+
+<div class="mt-2 d-flex justify-content-center" style="text-align:center; margin: 70px; padding: 30px;">
+<p>by <a href="https://www.github.com/shuyanmei" target="_blank">Shuyan Mei</a> (<a href="https://github.com/shuyanmei/dog_breed_detector" target="_blank">source</a>)</p>
+</div>
+
+
+
+</html>
+
+
