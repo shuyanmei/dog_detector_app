@@ -9,7 +9,7 @@ To detect dog breed in less time without sacrificing accuracy, I used transfer l
 ## Metrics
 I use 6680 images for training, 835 images for validation and 836 for testing . The metric to evaluate the model is prediction accuracy. The model achieved above 81\% accuracy on test dataset. 
 
-##Analysis and model development
+## Analysis and model development
 The details of analysis and model development are in the 'dog_app.ipynb'  jupyter notebook.
 
 This repository contains following files:
