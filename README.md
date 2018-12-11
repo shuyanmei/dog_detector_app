@@ -1,9 +1,16 @@
 # dog_breed_detector
 
+## Project Overview
+The goal of this project is to build a web app which can detect the human or dog face and corresponding dog breed when you upload an image. If a dog is detected, then the app will identify it as a dog and its breed. If human is detected, it will identify it as human and its most resembling breed. The input training dataset is provided by Udacity. There are 8351 dog images with 133 different dog categories.
 
-The goal of this project is to build a web app which can detect the human or dog face and corresponding dog breed when you upload an image. 
+## Problem Statement
+To detect dog breed in less time without sacrificing accuracy, I used transfer learning to create a Convolutional Neural Network(CNN) using Inception bottleneck features. The model use RMSprop algorithm for gradient descent optimization. The loss function is categorical cross entropy.
 
-The algorithm behind this is Convolutional Neural Network(CNN).
+## Metrics
+I use 6680 images for training, 835 images for validation and 836 for testing . The metric to evaluate the model is prediction accuracy. The model achieved above 81\% accuracy on test dataset. 
+
+##Analysis and model development
+The details of analysis and model development are in the 'dog_app.ipynb'  jupyter notebook.
 
 This repository contains following files:
   ```
